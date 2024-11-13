@@ -1,0 +1,84 @@
+@media (max-width: 400px) {
+
+    .nav1{
+        
+
+        .div-1{
+
+            /* Navbar adjustments */
+            .navbar-toggler {
+                display: block;
+            }
+
+            
+        
+            .navbar-collapse {
+                display: block; /* Show the navbar items when toggle is active */
+                
+               
+            }
+            
+            .logo1{
+                width: 200px;
+                height: auto;
+                margin-left: 0px;
+
+                .logoimg{
+                    width: 100%;
+                    height: auto;                
+                    content: url('../assets/imeges/logo3.png'); /* New image for smaller screens */
+                    width: 70px; /* Optionally, adjust the size for small screens */
+
+                }
+                
+            }
+
+            .navbar-nav {
+                display: none; /* Hide navbar items by default */
+            }
+
+            .nav-2{
+                display: none;
+            }
+
+            .currency-d{
+                display: none;
+            }
+
+            .nav-bottem-barul{
+                display: none;
+            }
+
+            .searchf{
+                width: 100px;
+            }
+
+        }
+
+       
+
+    }
+    
+}
+
+
+@media (min-width: 400px) and (max-width: 576px) {
+    
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    
+}
+
+
+@media (min-width: 992px) {
+
+   
+   
+}
