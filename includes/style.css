@@ -1339,40 +1339,52 @@ main{
 
 }
 
+
+.profile-cover-imaege-div{
+    width: 100%;
+    height: 35vh;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+}
+
 .main-profile-div{
 
-    width: 100%;
-    height: auto;
+    div:nth-of-type(1){
+        div:nth-of-type(1){
+            img{
+                width: 150px;
+                height: 150px;
+            }
+        }
 
-    .profile-sub-div1{
-        width: 100%;
-        height: 15vh;
+        div:nth-of-type(2){
+            margin-left: -3%;
 
-        img{
-            width: 100%;
-            height: auto;
+            .h1{
+                margin-bottom: -5px;
+
+            }
+
+           
+           
+        }
+
+        div:nth-of-type(3){
+            display: block;
         }
     }
-
-    .profile-sub-div2{
-        width: 100%;
-        height: auto;
-
-    }
-    
-    
 }
 
 
 
 
- 
-  
+.profile-card-d{
 
-
-
-
-
-
-
+}
 
