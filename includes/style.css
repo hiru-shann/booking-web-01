@@ -1384,7 +1384,11 @@ main{
 
 
 
-.profile-card-d{
-
+.prop-details-d1{
+    div:nth-of-type(1){
+        h1{
+            font-size: 25px;
+            
+        }
+    }
 }
-
