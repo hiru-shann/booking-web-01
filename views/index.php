@@ -41,15 +41,32 @@
                 
                     <div class="collapse navbar-collapse nav-2">
                         <ul class="navbar-nav me-auto">
-                            <li class="nav-item">
-                                    <a type="button" class="nav-hnames">Discover</a>
+                        
+                            <li class="nav-item dropdown">
+                                <a type="button" class="nav-hnames nav-link " href="#" id="discoverDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Discover</a>
+                                <ul class="dropdown-menu" aria-labelledby="discoverDropdown">
+                                    <li><a class="dropdown-item" href="#">Travelers' Choice</a></li>
+                                    <li><a class="dropdown-item" href="#">Travel Stories</a></li>
+                                   
+                                </ul>
                             </li>
-                            <li class="nav-item">
-                                    <a type="button" class="nav-hnames">Tips</a>
+                            <li class="nav-item dropdown">
+                                <a type="button" class="nav-hnames nav-link" href="#" id="discoverDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tips</a>
+                                <ul class="dropdown-menu" aria-labelledby="discoverDropdown">
+                                    <li><a class="dropdown-item" href="#">View my trips</a></li>
+                                    <li><a class="dropdown-item" href="#">Start a new trip</a></li>
+                                    <li><a class="dropdown-item" href="#">Create trip with AI</a></li>
+                                </ul>
                             </li>
-                            <li class="nav-item" >
-                                    <a type="button" class="nav-hnames">Review</a>
+                            <li class="nav-item dropdown" >
+                                <a type="button" class="nav-hnames nav-link" href="#" id="discoverDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Review</a>
+                                <ul class="dropdown-menu" aria-labelledby="discoverDropdown">
+                                    <li><a class="dropdown-item" href="#">Write a review</a></li>
+                                    <li><a class="dropdown-item" href="#">Post photos</a></li>
+                                    <li><a class="dropdown-item" href="#">Add a place</a></li>
+                                </ul>
                             </li>
+
                         </ul>
                     </div>
 
@@ -63,10 +80,24 @@
                         </div>
                     </div>
 
-                    <div class="profile-icon d-flex justify-content-center align-items-center ">
-                        <a href="../views/profile.php" class="profile-page-a">
-                            <i class="bi bi-person-circle"></i>
-                        </a>
+                    <div class="collapse navbar-collapse profile-icon">
+                        <ul class="navbar-nav ms-auto">
+                            <!-- Profile Icon and Dropdown Toggle -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link profile-page-a" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-person-circle"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
+                                    <li><a class="dropdown-item" href="#">Trips</a></li>
+                                    <li><a class="dropdown-item" href="#">Write a review</a></li>
+                                    <li><a class="dropdown-item" href="../views/profile.php">Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Bookings</a></li>
+                                    <li><a class="dropdown-item" href="#">Messages</a></li>
+                                    <li><a class="dropdown-item" href="#">Account Info</a></li>
+                                    <li><a class="dropdown-item" href="#">Sign Out</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
 
                     <div class="sing-b-l">
@@ -123,17 +154,38 @@
                     </div>
                     <div class="collapse navbar-collapse nav-2id">
                         <ul class="navbar-nav me-autoi">
-                            <li class="nav-item">
-                                <a type="button" class="nav-hnames ">Discover</a>
+
+                            <li class="nav-item dropdown">
+                                <a type="button" class="nav-hnames nav-link " href="#" id="discoverDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Discover</a>
+                                <ul class="dropdown-menu" aria-labelledby="discoverDropdown">
+                                    <li><a class="dropdown-item" href="#">Travelers' Choice</a></li>
+                                    <li><a class="dropdown-item" href="#">Travel Stories</a></li>
+                                   
+                                </ul>
                             </li>
-                            <li class="nav-item">
-                                <a type="button" class="nav-hnames ">Tips</a>
+                            <li class="nav-item dropdown">
+                                <a type="button" class="nav-hnames nav-link" href="#" id="discoverDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tips</a>
+                                <ul class="dropdown-menu" aria-labelledby="discoverDropdown">
+                                    <li><a class="dropdown-item" href="#">View my trips</a></li>
+                                    <li><a class="dropdown-item" href="#">Start a new trip</a></li>
+                                    <li><a class="dropdown-item" href="#">Create trip with AI</a></li>
+                                </ul>
                             </li>
-                            <li class="nav-item">
-                                <a type="button" class="nav-hnames ">Review</a>
+                            <li class="nav-item dropdown" >
+                                <a type="button" class="nav-hnames nav-link" href="#" id="discoverDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Review</a>
+                                <ul class="dropdown-menu" aria-labelledby="discoverDropdown">
+                                    <li><a class="dropdown-item" href="#">Write a review</a></li>
+                                    <li><a class="dropdown-item" href="#">Post photos</a></li>
+                                    <li><a class="dropdown-item" href="#">Add a place</a></li>
+                                </ul>
                             </li>
-                            <li class="nav-item">
-                                <a type="button" class="nav-hnames ">More</a>
+                            <li class="nav-item dropdown" >
+                                <a type="button" class="nav-hnames nav-link" href="#" id="discoverDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                                <ul class="dropdown-menu" aria-labelledby="discoverDropdown">
+                                    <li><a class="dropdown-item" href="#">Cruises</a></li>
+                                    <li><a class="dropdown-item" href="#">Rental Cars</a></li>
+                                    <li><a class="dropdown-item" href="#">AForums</a></li>
+                                </ul>
                             </li>
                         </ul>
                     </div>
@@ -148,10 +200,24 @@
                             </div>
                         </div>
 
-                        <div class="profile-icon d-flex justify-content-center align-items-center ">
-                        <a href="../views/profile.php" class="profile-page-a">
-                            <i class="bi bi-person-circle"></i>
-                        </a>
+                        <div class="collapse navbar-collapse profile-icon">
+                            <ul class="navbar-nav ms-auto">
+                                <!-- Profile Icon and Dropdown Toggle -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link profile-page-a" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="bi bi-person-circle"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
+                                        <li><a class="dropdown-item" href="#">Trips</a></li>
+                                        <li><a class="dropdown-item" href="#">Write a review</a></li>
+                                        <li><a class="dropdown-item" href="../views/profile.php">Profile</a></li>
+                                        <li><a class="dropdown-item" href="#">Bookings</a></li>
+                                        <li><a class="dropdown-item" href="#">Messages</a></li>
+                                        <li><a class="dropdown-item" href="#">Account Info</a></li>
+                                        <li><a class="dropdown-item" href="#">Sign Out</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
 
                         <div class="sing-b-l">

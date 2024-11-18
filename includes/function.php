@@ -197,6 +197,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+
+//     // JavaScript to toggle the width of the search bar when clicked
+// document.querySelector('.search-input1').addEventListener('focus', function() {
+//     this.classList.add('active');  // Add class to expand the width
+// });
+
+// document.querySelector('.search-input1').addEventListener('blur', function() {
+//     if (!this.value) {  // Collapse the width if input is empty
+//         this.classList.remove('active');
+//     }
+// });
+
+
+
+
+
 </script>
 
 
