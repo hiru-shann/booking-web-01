@@ -34,22 +34,33 @@
                             </span>
                         </div>
                     </div>
-                    <div class="col-sm-4 dropup d-flex justify-content-end gap-4 mt-3">
-                        <button class="btn  border-2 w-75 h-50 border-dark rounded bg-white d-flex align-items-center justify-conten t-start" data-bs-toggle="dropdown">
-                            <i class="bi bi-currency-dollar"></i>
-                            USD
-                            <span></span>
+                    <div class="col-sm-4 dropup d-flex justify-content-end gap-4 mt-3 dropdown dropdown-menu-end">
+                        <button class="btn  border-2 w-75 h-50 border-dark rounded bg-white d-flex align-items-center justify-content-between" data-bs-toggle="dropdown">
+                            <div class="">
+                                <i class="bi bi-currency-dollar"></i>
+                                USD
+                            </div>
+                            
+                            <i class="fa-solid fa-chevron-down toggle-icon"></i>
+                            <i class="fa-solid fa-chevron-up toggle-icon d-none"></i>
+                            
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item " href="#">LKR</a></li>
+                            <li><a class="dropdown-item " href="#">LKR</a></li>
                                 <li><a class="dropdown-item" href="#">USD</a></li>
                                 <li><a class="dropdown-item" href="#"></a></li>
+                                
                             </ul>
                         </button>
-                        <button class="btn border-2 w-75 h-50 border-dark rounded bg-white d-flex align-items-center justify-content-start" data-bs-toggle="dropdown">United Statet
+                        <button class="btn border-2 w-75 h-50 border-dark rounded bg-white d-flex align-items-center justify-content-between" data-bs-toggle="dropdown">
+                            United Statet
+                            <i class="fa-solid fa-chevron-down toggle-icon"></i>
+                            <i class="fa-solid fa-chevron-up toggle-icon d-none"></i>
+
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item " href="#">Sri Lanka</a></li>
                                 <li><a class="dropdown-item" href="#">Australia</a></li>
                                 <li><a class="dropdown-item" href="#">Usa</a></li>
+                                
                             </ul>
                         </button>
                     </div>

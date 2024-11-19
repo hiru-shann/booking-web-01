@@ -1241,7 +1241,7 @@ main{
         display: flex;
         flex-wrap: wrap;
 
-        div:nth-of-type(1){
+        .hotel-p-d-1{
 
             img{
                 width: 100%;
@@ -1256,13 +1256,13 @@ main{
             div{
                 font-size: 20px;
                 font-weight: bold;
-                margin-top: -40px;
+                margin-top: -23px;
             }
 
           
         }
 
-        div:nth-of-type(2){
+        .hotel-p-d-2{
         
             height: 60vh; /* Adjust the height of the right column to match the space available */
             gap: 0.5vh;
@@ -1288,6 +1288,13 @@ main{
             }
 
            
+
+           
+        }
+
+        .img-div-html{
+            margin-top: 550px !important;
+            margin-left: 20pxgit;
         }
     
     }

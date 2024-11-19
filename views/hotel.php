@@ -25,7 +25,7 @@
         </div>
     </div>
 
-    <div class="container-fluid mb-3">
+    <div class="container-fluid mb-5">
         <div class="ratings me-3 mb-1 fw-normal">
             <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
                 <circle cx="9" cy="9" r="9" />
@@ -92,18 +92,54 @@
 
   
 
-    <div class="container-fluid row hotel-p-d3 mb-4">
-        
-        <!-- Left Large Image -->
-        <div class="col-sm-8 position-relative ">
-            <img src="../assets/imeges/hotel4.jpeg" alt="Large Image" class="img-fluid object-fit-cover rounded img-hotel-01">
-            <div class=" bottom-0 start-0 p-2 text-white">
-                <span>342</span> <!-- Icon or text here -->
+    <div class="container-fluid row hotel-p-d3  mb-4">
+
+
+        <div id="carousel-img" class="slide col-sm-8 carousel hotel-p-d-1 position-relative" data-bs-ride="carousel">
+            <div class="carousel-inner mb-3">
+                        
+                <div class="  carousel-item active ">
+                    <img src="../assets/imeges/hotel4.jpeg" alt="Large Image" class="img-fluid object-fit-cover rounded img-hotel-01 d-block mt-5  w-100 "> 
+
+                </div>
+                
+                <div class=" carousel-item  ">
+                    <img src="../assets/imeges/hotel2.jpeg" alt="Large Image" class="img-fluid object-fit-cover rounded img-hotel-01 d-block mt-5  w-100">
+                   
+                </div>
+
+                <div class="  carousel-item ">
+                    <img src="../assets/imeges/hotel4.jpeg" alt="Large Image" class="img-fluid object-fit-cover rounded img-hotel-01 d-block mt-5  w-100 "> 
+                   
+                </div>
+                
+                <div class=" carousel-item  ">
+                    <img src="../assets/imeges/hotel1.jpeg" alt="Large Image" class="img-fluid object-fit-cover rounded img-hotel-01 d-block mt-5  w-100">
+                   
+                </div>
+
+                <div class=" carousel-item  ">
+                    <img src="../assets/imeges/hotel2.jpeg" alt="Large Image" class="img-fluid object-fit-cover rounded img-hotel-01 d-block mt-5  w-100">
+                   
+                </div>
+
+                <div class=" bottom-0 mt-5 start-0 p-2 text-white text-overlay position-relative img-div-html">
+                    <span>342</span> <!-- Icon or text here -->
+                </div>
+
             </div>
+             <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-img" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-img" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
         </div>
+      
 
         <!-- Right Column with Stacked Images -->
-        <div class="col-sm-4 d-flex flex-column ">
+        <div class="col-sm-4 d-flex flex-column hotel-p-d-2">
 
             <div class=" position-relative">
                 <img src="../assets/imeges/hotel4.jpeg" alt="Interior" class="img-fluid object-fit-cover rounded img-hotel-02">

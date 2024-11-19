@@ -234,33 +234,33 @@
             <div class="new-bottem-bar-d index-top-d">
                 <ul class="nav-bottem-barul index-top-d-ul">
                     <li class="nav-bottem-barli">
-                        <a class="nav-bottem-barali head-down-i-c" href="#"><img src="../assets/icons/home.png" class="index-img-i">
+                        <a class="nav-bottem-barali head-down-i-c" href="#Search"><img src="../assets/icons/home.png" class="index-img-i">
                         Search All
                         </a>
                     </li>
                     <li class="nav-bottem-barli">
-                    <a class="nav-bottem-barali head-down-i-c" href="#"><img src="../assets/icons/sunset.png" class="index-img-i">
+                    <a class="nav-bottem-barali head-down-i-c" href="#vaccations"><img src="../assets/icons/sunset.png" class="index-img-i">
                         vaccations
                         </a>
                     </li>
                     <li class="nav-bottem-barli">
-                    <a class="nav-bottem-barali head-down-i-c" href="#"><img src="../assets/icons/double-bed.png" class="index-img-i">
+                    <a class="nav-bottem-barali head-down-i-c" href="#Hotels"><img src="../assets/icons/double-bed.png" class="index-img-i">
                         Hotels
                         </a>
                        
                     </li>
                     <li class="nav-bottem-barli">
-                    <a class="nav-bottem-barali head-down-i-c" href="#"><img src="../assets/icons/cutlery.png" class="index-img-i">
+                    <a class="nav-bottem-barali head-down-i-c" href="#Resturents"><img src="../assets/icons/cutlery.png" class="index-img-i">
                         Resturents
                         </a>
                     </li>
                     <li class="nav-bottem-barli">
-                        <a class="nav-bottem-barali head-down-i-c" href="#"><img src="../assets/icons/airplane.png" class="index-img-i">
+                        <a class="nav-bottem-barali head-down-i-c" href="#flights"><img src="../assets/icons/airplane.png" class="index-img-i">
                         flights
                         </a>
                     </li>
                     <li class="nav-bottem-barli">
-                        <a class="nav-bottem-barali head-down-i-c" href="#"><img src="../assets/icons/neural.png" class="index-img-i">
+                        <a class="nav-bottem-barali head-down-i-c" href="#Things"><img src="../assets/icons/neural.png" class="index-img-i">
                         Things To Do
                         </a>
                     </li>
@@ -285,7 +285,7 @@
 
     <main>
 
-    <section class="main-i-d">
+    <section class="main-i-d" id="Search">
 
         <div class="search-all">
             <img src="../assets/imeges/indeximg1.jpg">
@@ -316,7 +316,7 @@
 
         </div>
 
-        <div class="container-fluid vacation">
+        <div class="container-fluid vacation" id="vaccations">
 
             <div class="hotes-index-dv">
                 <div class="imagegrid-index">
@@ -363,7 +363,7 @@
 
         </div>
 
-        <div class="container-fluid resturent">
+        <div class="container-fluid resturent" id="Resturents">
       
             <div class="row my-2 row-index" style="margin-top: 20px !important;">
                 <div class="col-12 ">
@@ -448,7 +448,7 @@
             </div>
         </div>
 
-        <div class="container-fluid resturent  hotels">
+        <div class="container-fluid resturent  hotels" id="Hotels">
       
             <div class="row my-2 pt-4 row-index" style="margin-top: 20px !important;">
                 <div class="col-12  ">

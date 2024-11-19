@@ -213,6 +213,49 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+// // Get all dropdown buttons with toggle icons
+// const dropdownButtons = document.querySelectorAll('[data-bs-toggle="dropdown"]');
+
+// // Add event listeners to toggle icons
+// dropdownButtons.forEach(button => {
+//     const downIcon = button.querySelector('.fa-chevron-down');
+//     const upIcon = button.querySelector('.fa-chevron-up');
+
+//     button.addEventListener('click', () => {
+//         const isOpen = button.classList.contains('show');
+        
+//         // Toggle icons based on dropdown state
+//         if (!isOpen) {
+//             downIcon.classList.add('d-none'); // Hide down icon
+//             upIcon.classList.remove('d-none'); // Show up icon
+//         } else {
+//             downIcon.classList.remove('d-none'); // Show down icon
+//             upIcon.classList.add('d-none'); // Hide up icon
+//         }
+//     });
+// });
+
+// // Handle closing of dropdowns
+// document.addEventListener('click', (e) => {
+//     dropdownButtons.forEach(button => {
+//         const dropdownMenu = button.nextElementSibling;
+//         const isOpen = dropdownMenu.classList.contains('show');
+
+//         // Ensure icons toggle correctly when dropdown is closed
+//         if (!button.contains(e.target) && isOpen) {
+//             const downIcon = button.querySelector('.fa-chevron-down');
+//             const upIcon = button.querySelector('.fa-chevron-up');
+//             downIcon.classList.remove('d-none'); // Show down icon
+//             upIcon.classList.add('d-none'); // Hide up icon
+//         }
+//     });
+// });
+
+
+
+
+
+
 </script>
 
 
