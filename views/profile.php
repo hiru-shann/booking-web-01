@@ -105,8 +105,8 @@ include "../includes/header.php";
                         </span>
                     </div>
                 </div>
-                <div class="card p-4">
-                    <div class="row gap-3">
+                <div class="card p-4 mb-3">
+                    <div class="row gap-3 ">
                         <h5 class="">Share your travel advice</h5>
                         <button class="border-0 bg-white d-flex justify-content-start align-items-center">
                             <i class="fa-solid fa-camera  me-2"></i>
@@ -124,7 +124,7 @@ include "../includes/header.php";
            </div>
         </div>
 
-        <div class="prop-details-d2 col-sm-9">
+        <div class="prop-details-d2 col-sm-9 mb-3">
             <div class="card p-4 h-100">
                 <h4 class="">Fill Out Your Profile</h4>
                 <span class="">Add photos and info to your profile so people can find you easily and get to know you better!</span>

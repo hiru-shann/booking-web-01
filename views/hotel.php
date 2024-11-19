@@ -169,97 +169,91 @@
                    </div>
 
                    <div >
-                    <span class="text-danger ms-4 p-3">MICHELIN</span>
+                        <span class="text-danger ms-4 p-3">MICHELIN</span>
                    </div>
                    <div class=" mb-5 ">
-                    <i class="bi bi-flower3 text-danger"></i>
-                    <i class="bi bi-flower3 text-danger"></i>
-                    <span class=" fw-light text-dotted-underline ">View more on MICHELIN Guide</span>
+                        <i class="bi bi-flower3 text-danger"></i>
+                        <i class="bi bi-flower3 text-danger"></i>
+                        <span class=" fw-light text-dotted-underline ">View more on MICHELIN Guide</span>
                    </div>
                    <div class="border-top">
-                    <h6 class="mt-4 fw-bold">
-                    RATINGS 
-                    </h6>
-                    <div class="div-hotel-grid-span-1 d-flex  justify-content-between align-items-center mb-3">
-                        <span class="me-4">
-                            <img src="../assets/icons/restaurant.png" alt="" class="ing-food-hotel-grid-icon">
-                            Food
-                        </span>
-                        <div class="d-flex">
-                            <svg width="20" height="20" fill="#006400">
-                                <circle cx="9" cy="9" r="9"></circle>
-                            </svg>
-                            <svg width="20" height="20" fill="#006400">
-                                <circle cx="9" cy="9" r="9"></circle>
-                            </svg>
-                            <svg width="20" height="20" fill="#006400">
-                                <circle cx="9" cy="9" r="9"></circle>
-                            </svg>
-                            <svg width="20" height="20" fill="#006400">
-                                <circle cx="9" cy="9" r="9"></circle>
-                            </svg>
-                            <svg width="20" height="20" fill="#006400">
-                                <circle cx="9" cy="9" r="9"></circle>
-                            </svg>
-                        </div>
-                    </div>
-                    
-                    <div class="div-hotel-grid-span-1  d-flex justify-content-between align-items-center mb-3">
-                        <span>
-                            <i class="fa-solid fa-bell-concierge"></i> 
-                            Servise
-                        </span>
-
-                        <div class="d-flex ">
-                            <svg width="20" height="20" fill="#006400" class=" mt-n-2">
-                                <circle cx="9" cy="9" r="9"></circle>
-                            </svg>
-                            <svg width="20" height="20" fill="#006400" class=" mt-n-2">
-                                <circle cx="9" cy="9" r="9"></circle>
-                            </svg>
-                            <svg width="20" height="20" fill="#006400" class=" mt-n-2">
-                                <circle cx="9" cy="9" r="9"></circle>
-                            </svg>
-                            <svg width="20" height="20" fill="#006400" class=" mt-n-2">
-                                <circle cx="9" cy="9" r="9"></circle>
-                            </svg>
-                            <svg width="20" height="20" fill="#006400" class=" mt-n-2">
-                                <circle cx="9" cy="9" r="9"></circle>
-                            </svg>
+                        <h6 class="mt-4 fw-bold">
+                        RATINGS 
+                        </h6>
+                        <div class="div-hotel-grid-span-1 d-flex  justify-content-between align-items-center mb-3">
+                            <span class="me-4">
+                                <img src="../assets/icons/restaurant.png" alt="" class="ing-food-hotel-grid-icon">
+                                Food
+                            </span>
+                            <div class="d-flex">
+                                <svg width="20" height="20" fill="#006400">
+                                    <circle cx="9" cy="9" r="9"></circle>
+                                </svg>
+                                <svg width="20" height="20" fill="#006400">
+                                    <circle cx="9" cy="9" r="9"></circle>
+                                </svg>
+                                <svg width="20" height="20" fill="#006400">
+                                    <circle cx="9" cy="9" r="9"></circle>
+                                </svg>
+                                <svg width="20" height="20" fill="#006400">
+                                    <circle cx="9" cy="9" r="9"></circle>
+                                </svg>
+                                <svg width="20" height="20" fill="#006400">
+                                    <circle cx="9" cy="9" r="9"></circle>
+                                </svg>
+                            </div>
                         </div>
                         
-                       
-                    </div>
-                    <div class="div-hotel-grid-span-1 d-flex justify-content-between align-items-center">
-                        <span >
-                            <i class="fa-solid fa-wallet"></i>
-                            Value
-                        </span>
-                        <div class="d-flex">
-                            <svg width="20" height="20" fill="#006400">
-                                <circle cx="9" cy="9" r="9"></circle>
-                            </svg>
-                            <svg width="20" height="20" fill="#006400">
-                                <circle cx="9" cy="9" r="9"></circle>
-                            </svg>
-                            <svg width="20" height="20" fill="#006400">
-                                <circle cx="9" cy="9" r="9"></circle>
-                            </svg>
-                            <svg width="20" height="20" fill="#006400">
-                                <circle cx="9" cy="9" r="9"></circle>
-                            </svg>
-                            <svg width="20" height="20" fill="#006400">
-                                <circle cx="9" cy="9" r="9"></circle>
-                            </svg>
+                        <div class="div-hotel-grid-span-1  d-flex justify-content-between align-items-center mb-3">
+                            <span>
+                                <i class="fa-solid fa-bell-concierge"></i> 
+                                Servise
+                            </span>
+
+                            <div class="d-flex ">
+                                <svg width="20" height="20" fill="#006400" class=" mt-n-2">
+                                    <circle cx="9" cy="9" r="9"></circle>
+                                </svg>
+                                <svg width="20" height="20" fill="#006400" class=" mt-n-2">
+                                    <circle cx="9" cy="9" r="9"></circle>
+                                </svg>
+                                <svg width="20" height="20" fill="#006400" class=" mt-n-2">
+                                    <circle cx="9" cy="9" r="9"></circle>
+                                </svg>
+                                <svg width="20" height="20" fill="#006400" class=" mt-n-2">
+                                    <circle cx="9" cy="9" r="9"></circle>
+                                </svg>
+                                <svg width="20" height="20" fill="#006400" class=" mt-n-2">
+                                    <circle cx="9" cy="9" r="9"></circle>
+                                </svg>
+                            </div>
+                            
+                        
                         </div>
-                    </div>
-                  
-
-                    
+                        <div class="div-hotel-grid-span-1 d-flex justify-content-between align-items-center">
+                            <span >
+                                <i class="fa-solid fa-wallet"></i>
+                                Value
+                            </span>
+                            <div class="d-flex">
+                                <svg width="20" height="20" fill="#006400">
+                                    <circle cx="9" cy="9" r="9"></circle>
+                                </svg>
+                                <svg width="20" height="20" fill="#006400">
+                                    <circle cx="9" cy="9" r="9"></circle>
+                                </svg>
+                                <svg width="20" height="20" fill="#006400">
+                                    <circle cx="9" cy="9" r="9"></circle>
+                                </svg>
+                                <svg width="20" height="20" fill="#006400">
+                                    <circle cx="9" cy="9" r="9"></circle>
+                                </svg>
+                                <svg width="20" height="20" fill="#006400">
+                                    <circle cx="9" cy="9" r="9"></circle>
+                                </svg>
+                            </div>
+                        </div>
                    </div>
-
-                
-                       
                 </div>
             </div>
         </div>
@@ -278,7 +272,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 ">
+        <div class="col-md-4 mb-3">
             <div class="card h-100">
                 <div class="card-body">
                     <h5 class="card-title">Location and contact</h5>

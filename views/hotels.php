@@ -136,11 +136,6 @@ include "../includes/header.php";
 
 </div>
 
-<div class="div-end">
-</div>
-
-
-
 
 <?php
 include "../includes/footer.php";

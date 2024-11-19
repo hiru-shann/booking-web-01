@@ -539,9 +539,11 @@
     </section>
 
     </main>
+
     <?php 
     include "../includes/function.php";
     include "../includes/popup.php";
+    include "../includes/footer.php";
     ?>
 </body>
 
