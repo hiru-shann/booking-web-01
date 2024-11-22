@@ -302,6 +302,17 @@ main{
     
 
 }
+.image-grid2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+}
 
 .grid-item {
     position: relative; /* Important to position the icon within the grid item */
@@ -314,6 +325,14 @@ main{
    object-fit: cover;
    display: block;
    border-radius: 70px;
+
+}
+
+.image-hotel-change{
+    width: 294px !important;
+    height: 300px !important;
+    border-radius: 20px !important;
+    
 
 }
 
@@ -391,6 +410,10 @@ main{
     align-items: center;
     display: flex;
     
+}
+
+.mainp2{
+    margin-top: -120px;
 }
 
 .ptopic{
@@ -1396,3 +1419,97 @@ main{
 }
 
 
+
+
+.card-res-up {
+    position: relative; /* For absolute positioning of icons */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s;
+  }
+
+  .card-res-up:hover {
+    transform: translateY(-5px); /* Hover effect */
+  }
+
+  /* Wrapper for icons */
+  .card-icons-res {
+    position: relative;
+    width: 100%;
+    height: 60px; /* Ensure enough space for overlapping icons */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Base styles for all icons */
+  .card-icons-res .icon-res {
+    position: absolute; /* Needed for overlapping layout */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #00a680;
+    color: white;
+    border: 3px solid #fff;
+    transition: all 0.3s ease;
+  }
+
+  /* Small icons (1st and 3rd) */
+  .card-icons-res .icon-small {
+    width: 40px;
+    height: 40px;
+    z-index: 1; /* Place below the middle icon */
+  }
+
+  /* Middle icon (large) */
+  .card-icons-res .icon-large {
+    width: 60px;
+    height: 60px;
+    z-index: 2; /* Place above the small icons */
+    top: -57px;
+  }
+
+  /* First icon (left, slightly below middle icon) */
+  .card-icons-res .icon-left {
+    left: 125px; /* Shift to the left */
+    top: -43px; /* Lower than the middle icon */
+  }
+
+  /* Third icon (right, slightly below middle icon) */
+  .card-icons-res .icon-right {
+    right: 125px; /* Shift to the right */
+    top: -43px; /* Lower than the middle icon */
+  }
+
+  /* Single icon for cards without three icons */
+  .card-icons2 {
+    position: absolute; /* Position the icon on the card */
+    top: -25px; /* Adjust icon position above the card border */
+    left: 50%; /* Center the icon horizontally */
+    transform: translateX(-50%); /* Align center */
+    width: 50px; /* Circle size */
+    height: 50px; /* Circle size */
+    background-color: #00a680; /* Icon background color */
+    color: white; /* Icon color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Make it circular */
+    border: 3px solid #fff; /* Add a white border for separation */
+  }
+
+  .card-title-res {
+    font-weight: bold;
+    color: #00a680;
+    margin-top: 20px; /* Add space to avoid overlap with icons */
+  }
+
+  .card-title1-res{
+    margin-top: -40px;
+  }
+
+  .card-text-res {
+    color: #555;
+  }

@@ -2,7 +2,7 @@
 include "../includes/header.php";
 ?>
 
-<div class=main-b1>
+<div class="main-b1">
     <div class="mainp">
         <p class="ptopic">
         To make life the most beautiful; Let's use BookMyJourney.
@@ -40,22 +40,88 @@ include "../includes/header.php";
         
         <div class="grid-item">
             
-        <a href="../views/hotel.php">
+            <a href="../views/hotel.php">
                 <img src="../assets/imeges/pd7.jpg" >
                 <img src="../assets/icons/heart.png" class="icon-hotels-h">
             </a>
+            <div class="ms-3 mt-2">
+                <h class="fw-normal fs-5">Rambagh Palace</h>
+                <div class="ratings me-3 mb-1 fw-normal">
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <span class="">167</span>
+                </div>
+                <span class="FS-6">$$$$ • American, Steakhouse, Gluten free options</span>
+            </div>
         </div>
         <div class="grid-item">
             <a href="../views/hotel.php">
                 <img src="../assets/imeges/pd8.jpg">
                 <img src="../assets/icons/heart.png" class="icon-hotels-h">
             </a>
+            <div class="ms-3 mt-2">
+                <h class="fw-normal fs-5">Rambagh Palace</h>
+                <div class="ratings me-3 mb-1 fw-normal">
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <span class="">167</span>
+                </div>
+                <span class="FS-6">$$$$ • American, Steakhouse, Gluten free options</span>
+            </div>
         </div>
         <div class="grid-item">
             <a href="../views/hotel.php">
                 <img src="../assets/imeges/pd9.jpg">
                 <img src="../assets/icons/heart.png" class="icon-hotels-h">
             </a>
+            <div class="ms-3 mt-2">
+                <h class="fw-normal fs-5">Rambagh Palace</h>
+                <div class="ratings me-3 mb-1 fw-normal">
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <span class="">167</span>
+                </div>
+                <span class="FS-6">$$$$ • American, Steakhouse, Gluten free options</span>
+            </div>
         </div>
     </div>
 
@@ -68,43 +134,203 @@ include "../includes/header.php";
                 <img src="../assets/imeges/pd4.jpg">
                 <img src="../assets/icons/heart.png" class="icon-hotels-h">
             </a>
+            <div class="ms-3 mt-2">
+                <h class="fw-normal fs-5">Rambagh Palace</h>
+                <div class="ratings me-3 mb-1 fw-normal">
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <span class="">167</span>
+                </div>
+                <span class="FS-6">$$$$ • American, Steakhouse, Gluten free options</span>
+            </div>
         </div>
         <div class="grid-item">
             <a href="../views/hotel.php">
                 <img src="../assets/imeges/pd5.jpg">
                 <img src="../assets/icons/heart.png" class="icon-hotels-h">
             </a>
+            <div class="ms-3 mt-2">
+                <h class="fw-normal fs-5">Rambagh Palace</h>
+                <div class="ratings me-3 mb-1 fw-normal">
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <span class="">167</span>
+                </div>
+                <span class="FS-6">$$$$ • American, Steakhouse, Gluten free options</span>
+            </div>
         </div>
         <div class="grid-item">
             <a href="../views/hotel.php">
                 <img src="../assets/imeges/pd6.jpg">
                 <img src="../assets/icons/heart.png" class="icon-hotels-h">
             </a>
+            <div class="ms-3 mt-2">
+                <h class="fw-normal fs-5">Rambagh Palace</h>
+                <div class="ratings me-3 mb-1 fw-normal">
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <span class="">167</span>
+                </div>
+                <span class="FS-6">$$$$ • American, Steakhouse, Gluten free options</span>
+            </div>
         </div>
     </div>
 
     <div>
         <h4 class="helite">Elite Accommodations</h4>
     </div>
-    <div class="image-grid">
+    <div class="container image-grid2">
         
         <div class="grid-item">
             <a href="../views/hotel.php">
-                <img src="../assets/imeges/pd7.jpg">
+                <img src="../assets/imeges/pd7.jpg" class="image-hotel-change">
                 <img src="../assets/icons/heart.png" class="icon-hotels-h">
             </a>
+            <div class="ms-3 mt-2">
+                <h class="fw-normal fs-5">Rambagh Palace</h>
+                <div class="ratings me-3 mb-1 fw-normal">
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <span class="">167</span>
+                </div>
+                <span class="FS-6">$$$$ • American, Steakhouse, Gluten free options</span>
+            </div>
         </div>
         <div class="grid-item">
             <a href="../views/hotel.php">
-                <img src="../assets/imeges/pd8.jpg">
+                <img src="../assets/imeges/pd8.jpg" class="image-hotel-change">
                 <img src="../assets/icons/heart.png" class="icon-hotels-h">
             </a>
+            <div class="ms-3 mt-2">
+                <h class="fw-normal fs-5">Rambagh Palace</h>
+                <div class="ratings me-3 mb-1 fw-normal">
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <span class="">167</span>
+                </div>
+                <span class="FS-6">$$$$ • American, Steakhouse, Gluten free options</span>
+            </div>
         </div>
         <div class="grid-item">
             <a href="../views/hotel.php">
-                <img src="../assets/imeges/pd9.jpg">
+                <img src="../assets/imeges/pd9.jpg" class="image-hotel-change">
                 <img src="../assets/icons/heart.png" class="icon-hotels-h">
             </a>
+            <div class="ms-3 mt-2">
+                <h class="fw-normal fs-5">Rambagh Palace</h>
+                <div class="ratings me-3 mb-1 fw-normal">
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <span class="">167</span>
+                </div>
+                <span class="FS-6">$$$$ • American, Steakhouse, Gluten free options</span>
+            </div>
+        </div>
+        <div class="grid-item">
+            <a href="../views/hotel.php">
+                <img src="../assets/imeges/pd9.jpg" class="image-hotel-change">
+                <img src="../assets/icons/heart.png" class="icon-hotels-h">
+            </a>
+            <div class="ms-3 mt-2">
+                <h class="fw-normal fs-5">Rambagh Palace</h>
+                <div class="ratings me-3 mb-1 fw-normal">
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <span class="">167</span>
+                </div>
+                <span class="FS-6">$$$$ • American, Steakhouse, Gluten free options</span>
+            </div>
         </div>
     </div>
 
@@ -112,25 +338,91 @@ include "../includes/header.php";
     <div>
         <h4 class="helite">Elite Accommodations</h4>
     </div>
-    <div class="image-grid">
+    <div class="image-grid ">
         
         <div class="grid-item">
             <a href="../views/hotel.php">
                 <img src="../assets/imeges/pd7.jpg">
                 <img src="../assets/icons/heart.png" class="icon-hotels-h">
             </a>
+            <div class="ms-3 mt-2">
+                <h class="fw-normal fs-5">Rambagh Palace</h>
+                <div class="ratings me-3 mb-1 fw-normal">
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <span class="">167</span>
+                </div>
+                <span class="FS-6">$$$$ • American, Steakhouse, Gluten free options</span>
+            </div>
         </div>
         <div class="grid-item">
             <a href="../views/hotel.php">
                 <img src="../assets/imeges/pd8.jpg">
                 <img src="../assets/icons/heart.png" class="icon-hotels-h">
             </a>
+            <div class="ms-3 mt-2">
+                <h class="fw-normal fs-5">Rambagh Palace</h>
+                <div class="ratings me-3 mb-1 fw-normal">
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <span class="">167</span>
+                </div>
+                <span class="FS-6">$$$$ • American, Steakhouse, Gluten free options</span>
+            </div>
         </div>
         <div class="grid-item">
             <a href="../views/hotel.php">
                 <img src="../assets/imeges/pd9.jpg">
                 <img src="../assets/icons/heart.png" class="icon-hotels-h">
             </a>
+            <div class="ms-3 mt-2">
+                <h class="fw-normal fs-5">Rambagh Palace</h>
+                <div class="ratings me-3 mb-1 fw-normal">
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <svg width="20" height="20" fill="#006400"> <!-- Dark green color code -->
+                        <circle cx="9" cy="9" r="9" />
+                    </svg>
+                    <span class="">167</span>
+                </div>
+                <span class="FS-6">$$$$ • American, Steakhouse, Gluten free options</span>
+            </div>
         </div>
     </div>
 

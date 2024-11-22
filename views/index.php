@@ -115,7 +115,7 @@
                     <a class="nav-bottem-barali" href="../views/hotels.php">Hotels</a>
                 </li>
                 <li class="nav-bottem-barli">
-                    <a class="nav-bottem-barali" href="../views/vaccations.php">Vacctions</a>
+                    <a class="nav-bottem-barali" href="../views/vacations.php">Vacations</a>
                 </li>
                 <li class="nav-bottem-barli">
                     <a class="nav-bottem-barali" href="../views/resturents.php">Resturents</a>
@@ -239,8 +239,8 @@
                         </a>
                     </li>
                     <li class="nav-bottem-barli">
-                    <a class="nav-bottem-barali head-down-i-c" href="#vaccations"><img src="../assets/icons/sunset.png" class="index-img-i">
-                        vaccations
+                    <a class="nav-bottem-barali head-down-i-c" href="#vacations"><img src="../assets/icons/sunset.png" class="index-img-i">
+                        vacations
                         </a>
                     </li>
                     <li class="nav-bottem-barli">
@@ -363,7 +363,7 @@
 
         </div>
 
-        <div class="container-fluid resturent" id="Resturents">
+        <div class="container-fluid resturent mb-5" id="Resturents">
       
             <div class="row my-2 row-index" style="margin-top: 20px !important;">
                 <div class="col-12 ">
@@ -374,7 +374,9 @@
             <div class="row my-2 row-index1">
                 <div class="col-12 col-md-3 d-flex justify-content-around    ">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        <a href="../views/hotel.php" class="">
+                            <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        </a>
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -382,7 +384,9 @@
                 </div>
                 <div class="col-12 col-md-3  d-flex justify-content-around   ">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        <a href="../views/hotel.php" class="">
+                            <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        </a>
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -390,7 +394,9 @@
                 </div>
                 <div class="col-12 col-md-3  d-flex justify-content-around  ">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        <a href="../views/hotel.php" class="">
+                            <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        </a>
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -398,7 +404,9 @@
                 </div>
                 <div class="col-12 col-md-3  d-flex justify-content-around  ">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        <a href="../views/hotel.php" class="">
+                            <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        </a>
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -406,8 +414,8 @@
                 </div>
             </div>
 
-            <div class="row my-2 row-index" >
-                <div class="col-12  ">
+            <div class="row my-2 mt-4  row-index" >
+                <div class="col-12 ">
                     <h4 class="">Treat yourself to an award-winning meal</h4>
                     <p class="index-resturent">2024’s Travelers’ Choice Awards Best of the Best Restaurants</p>
                 </div>
@@ -415,7 +423,9 @@
             <div class="row my-2 pb-3 row-index1">
                 <div class="col-12 col-md-3  d-flex justify-content-around    ">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        <a href="../views/hotel.php" class="">
+                            <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        </a>
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -423,7 +433,9 @@
                 </div>
                 <div class="col-12 col-md-3  d-flex justify-content-around   ">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        <a href="../views/hotel.php" class="">
+                            <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        </a>
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -431,7 +443,9 @@
                 </div>
                 <div class="col-12 col-md-3  d-flex justify-content-around  ">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        <a href="../views/hotel.php" class="">
+                            <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        </a>
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -439,7 +453,9 @@
                 </div>
                 <div class="col-12 col-md-3  d-flex justify-content-around  ">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        <a href="../views/hotel.php" class="">
+                            <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        </a>
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -460,7 +476,9 @@
                 <div class="col-12 col-md-4 d-flex justify-content-around    ">
                     <div class="card mx-5  border-0" >
                         <div class=" imagediv"></div>
-                        <img src="../assets/imeges/hotel1.jpeg" class="card-img-top p-2" alt="...">
+                        <a href="../views/hotel.php" class="">
+                            <img src="../assets/imeges/hotel1.jpeg" class="card-img-top p-2" alt="...">
+                        </a>
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -469,7 +487,9 @@
                 <div class="col-12 col-md-4  d-flex justify-content-around   ">
                     <div class="card mx-5  border-0" >
                         <div class=" imagediv"></div>
-                        <img src="../assets/imeges/hotel1.jpeg" class="card-img-top p-2" alt="...">
+                        <a href="../views/hotel.php" class="">
+                            <img src="../assets/imeges/hotel1.jpeg" class="card-img-top p-2" alt="...">
+                        </a>
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -478,7 +498,9 @@
                 <div class="col-12 col-md-4  d-flex justify-content-around  ">
                     <div class="card mx-5  border-0" >
                         <div class=" imagediv"></div>
-                        <img src="../assets/imeges/hotel1.jpeg" class="card-img-top p-2" alt="...">
+                        <a href="../views/hotel.php" class="">
+                            <img src="../assets/imeges/hotel1.jpeg" class="card-img-top p-2" alt="...">
+                        </a>
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -486,7 +508,7 @@
                 </div>
             </div>
 
-            <div class="row my-2 row-index" style="margin-top: 60px !important;">
+            <div class="row mb-2 row-index" style="margin-top: 60px !important;">
                 <div class="col-12  ">
                     <h4 class="">Treat yourself to an award-winning meal</h4>
                     <p class="index-resturent">2024’s Travelers’ Choice Awards Best of the Best Restaurants</p>
@@ -495,7 +517,9 @@
             <div class="row my-2 row-index1">
                 <div class="col-12 col-md-3 d-flex justify-content-around    ">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        <a href="../views/hotel.php" class="">
+                            <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        </a>
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -503,7 +527,9 @@
                 </div>
                 <div class="col-12 col-md-3  d-flex justify-content-around   ">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        <a href="../views/hotel.php" class="">
+                            <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        </a>
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -511,7 +537,9 @@
                 </div>
                 <div class="col-12 col-md-3  d-flex justify-content-around  ">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        <a href="../views/hotel.php" class="">
+                            <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        </a>
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -519,7 +547,9 @@
                 </div>
                 <div class="col-12 col-md-3  d-flex justify-content-around  ">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        <a href="../views/hotel.php" class="">
+                            <img src="../assets/imeges/hotel1.jpeg" class="card-img-top" alt="...">
+                        </a>
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
