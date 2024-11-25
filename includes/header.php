@@ -86,7 +86,7 @@
                     <div class="collapse navbar-collapse profile-icon">
                         <ul class="navbar-nav ms-auto">
                             <!-- Profile Icon and Dropdown Toggle -->
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown d-none">
                                 <a class="nav-link profile-page-a" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <i class="bi bi-person-circle"></i>
                                 </a>
@@ -104,7 +104,7 @@
                     </div>
 
                     <div class="sing-b-l">
-                        <button type="submit" id="sing-b" class ="btn btn-success sing-b d-none" id="singin" onclick="singin()" >sing in</button>
+                        <button type="submit" id="sing-b" class ="btn btn-success sing-b " id="singin" onclick="singin()" >sing in</button>
                     </div>
 
                     

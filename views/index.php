@@ -1,3 +1,9 @@
+<?php
+
+require "../includes/db.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,7 +23,10 @@
 
 </head>
 
+
 <body>
+
+  
 
     <section class=" section1 section1-i"  id="mainheader">
         <nav class="navbar navbar-expand-sm nav1">
@@ -284,6 +293,14 @@
     </section>
 
     <main>
+
+       <!-- Display the message only if it's set -->
+       <?php if (!empty($message)): ?>
+            <div id="message" class="message <?php echo htmlspecialchars($messageClass); ?>">
+                <?php echo htmlspecialchars($message); ?>
+            </div>
+        <?php endif; ?>
+
 
     <section class="main-i-d" id="Search">
 

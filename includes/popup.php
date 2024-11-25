@@ -13,9 +13,11 @@
           <span class="d-block">best of BookMyJourney.</span>
         </h4>
         
-        <div>
-          <input type="text" placeholder="user name">
-          <input type="password" placeholder="password">
+        <div class="">
+          <form action="" method="POST" class="d-grid" style="row-gap: 20px;">
+            <input type="text" placeholder="user name" required>
+            <input type="password" placeholder="password" required>
+          </form>
         </div>
           <button class="btn btn-success btns">Sing in</button>
           <p>Don't have an account? <a onclick="singup()">Sign up</a> now to unlock exclusive deals!</p>
@@ -68,15 +70,16 @@
         </h4>
         
         <div class="dr">
-         <form>
+         <form method="POST" >
+
           <lable>First Name</lable>
             <input type="text" placeholder="First Name" class="inputr" required>
           <lable>Last Name</lable>
             <input type="text" placeholder="Last Name" class="inputr" required>
           <lable>User Name</lable>
             <input type="text" placeholder="User Name" class="inputr" required>
-          <lable>Country</lable>
-            <input type="text" placeholder="Country" class="inputr" required>
+          <lable>Address</lable>
+            <input type="text" placeholder="Address" class="inputr" required>
           <lable>Phone Number</lable>
           <input type="number" placeholder="Number" class="inputr" required>
           <lable>Email</lable>
@@ -85,7 +88,6 @@
             <input type="password" placeholder="Password" class="inputr" required>
           <lable>Reapeat Password</lable>
             <input type="password" placeholder="Reapet Password" class="inputr" required>
-           
 
           </form>
         </div>
