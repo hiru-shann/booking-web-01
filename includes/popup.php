@@ -1,3 +1,5 @@
+
+
 <!-- sign in -->
 <!-- Modal -->
 <div class="modal fade" id="signIn" role="dialog">
@@ -89,10 +91,10 @@
           <lable>Reapeat Password</lable>
             <input type="password" placeholder="Reapet Password" class="inputr" required>
 
+          <button type="submit" class="btn btn-success btns">Sing up</button>
           </form>
         </div>
-          <button class="btn btn-success btns">Sing up</button>
-          <button class="btn btn-danger btns3">Back</button>
+          <button class="btn btn-danger btns3" data-bs-dismiss="model" name="submit">Back</button>
       </div>
 
       <div class="mdiv-p">

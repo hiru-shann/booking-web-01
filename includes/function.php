@@ -254,6 +254,37 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+document.getElementById('signup-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const formData = new FormData(this);
+  
+  fetch('signup.php', {  // Ensure this is the correct path to your PHP handler
+    method: 'POST',
+    body: formData
+  })
+  .then(response => response.json())
+  .then(data => {
+    const popupMessage = document.getElementById('popup-message');
+    if (data.status === 'success') {
+      popupMessage.classList.add('alert-success');
+      popupMessage.classList.remove('alert-danger');
+      popupMessage.innerHTML = data.message;
+    } else {
+      popupMessage.classList.add('alert-danger');
+      popupMessage.classList.remove('alert-success');
+      popupMessage.innerHTML = data.message;
+    }
+    popupMessage.style.display = 'block';
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+});
+
+
+
+
 
 
 </script>

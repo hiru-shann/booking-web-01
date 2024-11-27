@@ -294,12 +294,13 @@ require "../includes/db.php";
 
     <main>
 
-       <!-- Display the message only if it's set -->
-       <?php if (!empty($message)): ?>
-            <div id="message" class="message <?php echo htmlspecialchars($messageClass); ?>">
-                <?php echo htmlspecialchars($message); ?>
-            </div>
-        <?php endif; ?>
+     <!-- Display the message only if it's set -->
+    <?php if (isset($message) && !empty($message)): ?>
+        <div id="message" class="message <?= htmlspecialchars($messageClass, ENT_QUOTES, 'UTF-8'); ?>">
+            <?= htmlspecialchars($message, ENT_QUOTES, 'UTF-8'); ?>
+        </div>
+    <?php endif; ?>
+
 
 
     <section class="main-i-d" id="Search">
