@@ -1,14 +1,17 @@
 <?php
+// Start the session to access session variables
 session_start();
 
-// Display success or error message from session if available
-if (isset($_SESSION['success'])) {
-    echo "<div class='alert alert-success'>" . $_SESSION['success'] . "</div>";
-    unset($_SESSION['success']);
+// Secure session: regenerate session ID to prevent session fixation attacks
+if (!isset($_SESSION['session_regenerated'])) {
+    session_regenerate_id(true);
+    $_SESSION['session_regenerated'] = true;
 }
 
-if (isset($_SESSION['error'])) {
-    echo "<div class='alert alert-danger'>" . $_SESSION['error'] . "</div>";
-    unset($_SESSION['error']);
+// Check if the user is logged in by verifying session variables
+if (!isset($_SESSION['user_id'])) {
+    // If not logged in, redirect to the sign-in page
+    header('Location: signIn.php');
+    exit;
 }
 ?>

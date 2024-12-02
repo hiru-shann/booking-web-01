@@ -17,11 +17,13 @@
         
         <div class="">
           <form action="" method="POST" class="d-grid" style="row-gap: 20px;">
-            <input type="text" placeholder="user name" required>
-            <input type="password" placeholder="password" required>
+            <input type="text" name="user_name" placeholder="user name" required>
+            <input type="password" name="password" placeholder="password" required>
+            <button class="btn btn-success btns" type="submit">Sing in</button>
+           
           </form>
         </div>
-          <button class="btn btn-success btns">Sing in</button>
+        
           <p>Don't have an account? <a onclick="singup()">Sign up</a> now to unlock exclusive deals!</p>
 
           <div class="social-login">
@@ -72,29 +74,30 @@
         </h4>
         
         <div class="dr">
-         <form method="POST" >
+         <form method="POST" action="../includes/signUp.php">
 
+      
           <lable>First Name</lable>
-            <input type="text" placeholder="First Name" class="inputr" required>
+            <input type="text" name="first_name" placeholder="First Name" class="inputr" required value="">
           <lable>Last Name</lable>
-            <input type="text" placeholder="Last Name" class="inputr" required>
+            <input type="text" name="last_name" placeholder="Last Name" class="inputr" required value="">
           <lable>User Name</lable>
-            <input type="text" placeholder="User Name" class="inputr" required>
+            <input type="text" name="user_name" placeholder="User Name" class="inputr" required value="">
           <lable>Address</lable>
-            <input type="text" placeholder="Address" class="inputr" required>
+            <input type="text" name="address" placeholder="Address" class="inputr" required value="">
           <lable>Phone Number</lable>
-          <input type="number" placeholder="Number" class="inputr" required>
+          <input type="number" name="phone_number" placeholder="Number" class="inputr" required value="">
           <lable>Email</lable>
-            <input type="Email" placeholder="Email" class="inputr" required>
+            <input type="Email" name="email" placeholder="Email" class="inputr" required value="">
           <lable>Password</lable>
-            <input type="password" placeholder="Password" class="inputr" required>
+            <input type="password" name="password" placeholder="Password" class="inputr" required value="">
           <lable>Reapeat Password</lable>
-            <input type="password" placeholder="Reapet Password" class="inputr" required>
+            <input type="password" name="r_password" placeholder="Reapet Password" class="inputr" required value="">
 
-          <button type="submit" class="btn btn-success btns">Sing up</button>
+          <button type="submit" name="submit" class="btn btn-success btns">Sing up</button>
           </form>
         </div>
-          <button class="btn btn-danger btns3" data-bs-dismiss="model" name="submit">Back</button>
+          <button class="btn btn-danger btns3" data-bs-dismiss="model" name="back">Back</button>
       </div>
 
       <div class="mdiv-p">
