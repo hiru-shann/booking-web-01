@@ -1,3 +1,8 @@
+<?php
+require "../includes/session.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

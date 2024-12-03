@@ -32,6 +32,14 @@ include "../includes/header.php";
     <img src="../assets/imeges/p4.jpg" alt="A beautiful sunset over the mountains" class="full-image">
 </div>
 
+
+ <!-- Display the message only if it's set -->
+ <?php if (isset($message) && !empty($message)): ?>
+        <div id="message" class="message <?= htmlspecialchars($messageClass, ENT_QUOTES, 'UTF-8'); ?>">
+            <?= htmlspecialchars($message, ENT_QUOTES, 'UTF-8'); ?>
+        </div>
+    <?php endif; ?>
+    
 <div class="hotel-b-d">
     <div>
         <h4 class="helite">Elite Accommodations</h4>

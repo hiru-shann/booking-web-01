@@ -1,5 +1,6 @@
 <?php
-require "db.php";  // Assuming db.php contains your PDO connection
+// require "db.php";  // Assuming db.php contains your PDO connection
+require 'session.php';
 
 // Initialize an array to store errors
 $errors = [];

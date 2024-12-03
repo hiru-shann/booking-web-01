@@ -198,7 +198,11 @@ if (isset($_POST['submit'])) {
 
 
 
-<?php
+
+
+
+
+
 require "db.php";  // Assuming db.php contains your PDO connection
 
 // Function to generate a CSRF token and store it in the session
@@ -312,18 +316,112 @@ if (count($errors) > 0) {
         echo "Error occurred. Please try again later.";
     }
 }
-?>
+
 
 <!-- CSRF Token Form Input -->
-<form method="POST">
-    <input type="hidden" name="csrf_token" value="<?php echo generateCsrfToken(); ?>" />
+<!-- <form method="POST">
+    <input type="hidden" name="csrf_token" value="<?php echo generateCsrfToken(); ?>" /> -->
     <!-- Other form fields here -->
-    <label for="password">Password</label>
+    <!-- <label for="password">Password</label>
     <input type="password" name="password" required><br>
     
     <label for="repeat_password">Repeat Password</label>
-    <input type="password" name="repeat_password" required><br>
+    <input type="password" name="repeat_password" required><br> -->
     
     <!-- Other fields for first_name, last_name, user_name, etc. -->
-    <input type="submit" value="Register">
-</form>
+    <!-- <input type="submit" value="Register">
+</form> -->
+
+
+
+
+
+// db.php - Database connection
+require 'db.php';  // Assuming db.php contains your PDO connection
+
+// Start a session to manage user login status
+session_start();
+
+// Initialize an array to store errors
+$errors = [];
+
+if (isset($_POST['user_name'], $_POST['password'])) {
+    // Sanitize input to prevent XSS
+    $userName = htmlspecialchars(trim($_POST['user_name']));
+    $password = trim($_POST['password']);
+
+    // Validate user input
+    if (empty($userName)) {
+        $errors[] = "Username is required.";
+    }
+    if (empty($password)) {
+        $errors[] = "Password is required.";
+    }
+
+    // If no errors, proceed to check the credentials
+    if (count($errors) === 0) {
+        try {
+            // Check if the username exists in the database
+            $sql = "SELECT id, user_name, password FROM users WHERE user_name = :user_name";
+            $stmt = $pdo->prepare($sql);
+            $stmt->bindParam(':user_name', $userName);
+            $stmt->execute();
+            
+            // Fetch user data if it exists
+            $user = $stmt->setFetchMode(PDO::FETCH_ASSOC);
+            
+            if ($user) {
+                // Check if the entered password matches the hashed password
+                if (password_verify($password, $user['password'])) {
+                    // Set session variables for the logged-in user
+                    $_SESSION['user_id'] = $user['id'];
+                    $_SESSION['user_name'] = $user['user_name'];
+
+                    
+                    
+                    // Redirect to a dashboard or home page
+                    header('Location: ../views/profile.php?signin=success');
+                    exit;
+                } else {
+                    $errors[] = "Incorrect password.";
+                }
+            } else {
+                $errors[] = "Username not found.";
+            }
+        } catch (PDOException $e) {
+            // Handle database errors
+            $errors[] = "Database error: " . $e->getMessage();
+        }
+    }
+}
+
+// Display errors if any
+if (count($errors) > 0) {
+    foreach ($errors as $error) {
+        echo $error . "<br>";
+    }
+}
+
+
+
+
+
+
+
+
+// Start the session to access session variables
+session_start();
+
+// Secure session: regenerate session ID to prevent session fixation attacks
+if (!isset($_SESSION['session_regenerated'])) {
+    session_regenerate_id(true);
+    $_SESSION['session_regenerated'] = true;
+}
+
+// Check if the user is logged in by verifying session variables
+if (!isset($_SESSION['user_id'])) {
+    // If not logged in, redirect to the sign-in page
+    header('Location: signIn.php');
+    exit;
+}
+

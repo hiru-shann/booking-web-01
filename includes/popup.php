@@ -16,10 +16,10 @@
         </h4>
         
         <div class="">
-          <form action="" method="POST" class="d-grid" style="row-gap: 20px;">
+          <form action="../includes/signIn.php" method="POST" class="d-grid" style="row-gap: 20px;">
             <input type="text" name="user_name" placeholder="user name" required>
             <input type="password" name="password" placeholder="password" required>
-            <button class="btn btn-success btns" type="submit">Sing in</button>
+            <button class="btn btn-success btns" type="submit" style="margin-top: -2px;">Sing in</button>
            
           </form>
         </div>
@@ -86,7 +86,7 @@
           <lable>Address</lable>
             <input type="text" name="address" placeholder="Address" class="inputr" required value="">
           <lable>Phone Number</lable>
-          <input type="number" name="phone_number" placeholder="Number" class="inputr" required value="">
+            <input type="number" name="phone_number" placeholder="Number" class="inputr" required value="">
           <lable>Email</lable>
             <input type="Email" name="email" placeholder="Email" class="inputr" required value="">
           <lable>Password</lable>
@@ -97,7 +97,7 @@
           <button type="submit" name="submit" class="btn btn-success btns">Sing up</button>
           </form>
         </div>
-          <button class="btn btn-danger btns3" data-bs-dismiss="model" name="back">Back</button>
+          <button class="btn btn-danger btns3" data-bs-dismiss="modal" name="back">Back</button>
       </div>
 
       <div class="mdiv-p">
