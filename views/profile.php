@@ -20,7 +20,7 @@ include "../includes/header.php";
                     <img src="../assets/imeges/profile-icon-2.jpg" alt="" class="profile-img-2 rounded-circle">
                 </div>
                 <div class="container col-sm-6 mt-1 mt-n5">
-                    <h1 class="display-6 fw-bold h1"><?php echo htmlspecialchars($username); ?></h1>
+                    <h1 class="display-6 fw-bold h1"><?php echo htmlspecialchars($_SESSION['user_name']); ?></h1>
                     <span class="span1">@44tharinduh</span>
                     <div class="mt-3 fs-5">
                         <div class="row fw-bold ">

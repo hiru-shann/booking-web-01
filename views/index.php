@@ -90,9 +90,9 @@ require '../includes/session.php';
                     </div>
 
                     <div class="collapse navbar-collapse profile-icon">
-                        <ul class="navbar-nav ms-auto">
+                        <ul class="navbar-nav ms-auto d-none">
                             <!-- Profile Icon and Dropdown Toggle -->
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown ">
                                 <a class="nav-link profile-page-a" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <i class="bi bi-person-circle"></i>
                                 </a>
@@ -103,14 +103,16 @@ require '../includes/session.php';
                                     <li><a class="dropdown-item" href="#">Bookings</a></li>
                                     <li><a class="dropdown-item" href="#">Messages</a></li>
                                     <li><a class="dropdown-item" href="#">Account Info</a></li>
-                                    <li><a class="dropdown-item" href="#">Sign Out</a></li>
+                                    <li><a class="dropdown-item" href="../views/index.php" >Sign Out</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
 
+                    
+
                     <div class="sing-b-l">
-                        <button type="submit" id="sing-b" class ="btn btn-success sing-b d-none" id="singin" onclick="singin()" >sing in</button>
+                        <button type="submit" id="sing-b" class ="btn btn-success sing-b " id="singin" onclick="singin()" >sing in</button>
                     </div>
 
                 </div>
@@ -210,7 +212,7 @@ require '../includes/session.php';
                         </div>
 
                         <div class="collapse navbar-collapse profile-icon">
-                            <ul class="navbar-nav ms-auto">
+                            <ul class="navbar-nav ms-auto d-none" >
                                 <!-- Profile Icon and Dropdown Toggle -->
                                 <li class="nav-item dropdown">
                                     <a class="nav-link profile-page-a" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -223,14 +225,14 @@ require '../includes/session.php';
                                         <li><a class="dropdown-item" href="#">Bookings</a></li>
                                         <li><a class="dropdown-item" href="#">Messages</a></li>
                                         <li><a class="dropdown-item" href="#">Account Info</a></li>
-                                        <li><a class="dropdown-item" href="#">Sign Out</a></li>
+                                        <li><a class="dropdown-item" href="../views/index.php" >Sign Out</a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </div>
 
                         <div class="sing-b-l">
-                            <button type="submit" id="sing-b" class="btn btn-success sing-b d-none" id="singin" onclick="singin()">sing in</button>
+                            <button type="submit" id="sing-b" class="btn btn-success sing-b " id="singin signInButton" onclick="singin()">sing in</button>
                         </div>
                     </div>
                 </div>
@@ -307,7 +309,7 @@ require '../includes/session.php';
 
         <div class="search-all">
             <img src="../assets/imeges/indeximg1.jpg">
-            <div class="index-d-i-2">
+            <div class="index-d-i-2">         
                 <div class="div-index-span-1"> 
                     <span>
                         Discover your perfect getaway,

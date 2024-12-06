@@ -37,6 +37,30 @@ function singup() {
 
 }
 
+function dinemic_sign_profile() {
+
+// Hide the 'signIn' modal if it's open
+      var popupSignInButton = document.getElementById('popupSign');
+      var profilePage = document.getElementById('singUp');
+
+      // Check if the 'signIn' modal is visible
+      if (signInElement.classList.contains('show')) {
+          var myModal = bootstrap.Modal.getInstance(signInModalElement);
+          if (myModal) {
+              myModal.hide();
+          }
+      }
+
+  // Show the modal using Bootstrap's modal method
+  console.log("btn clicked")
+  var myModal2 = new bootstrap.Modal(document.getElementById('singUp'));
+  myModal2.show();
+
+  //interpace changing
+  
+
+}
+
 
 
 
@@ -111,6 +135,12 @@ document.addEventListener("DOMContentLoaded", function () {
         
     });
 });
+
+
+
+
+
+
 
 
 // // Select the main and small navigation elements
@@ -254,36 +284,132 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.getElementById('signup-form').addEventListener('submit', function(e) {
-  e.preventDefault();
 
-  const formData = new FormData(this);
+
+
+
+
+// // Get references to HTML elements
+// const signInButton = document.getElementById("signInButton");
+// const profileIcon = document.getElementById("profileIcon");
+// const signOutButton = document.getElementById("signOutButton");
+
+
+// // Check if the user is logged in by default (e.g., using localStorage or sessionStorage)
+// let isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+
+// // Function to update UI based on login status
+// function updateUI() {
+//     if (isLoggedIn) {
+//         signInButton.style.display = "none";  // Hide Sign In button
+//         profileIcon.style.display = "block";  // Show Profile icon
+//     } else {
+//         signInButton.style.display = "block"; // Show Sign In button
+//         profileIcon.style.display = "none";   // Hide Profile icon
+//     }
+// }
+
+// // Sign In action
+// signInButton.addEventListener("click", () => {
+//     // Simulate a sign-in process
+//     isLoggedIn = true;
+//     localStorage.setItem("isLoggedIn", "true");
+//     updateUI();  // Update UI after signing in
+// });
+
+// // Sign Out action
+// signOutButton.addEventListener("click", () => {
+//     // Simulate a sign-out process
+//     isLoggedIn = false;
+//     localStorage.setItem("isLoggedIn", "false");
+//     updateUI();  // Update UI after signing out
+// });
+
+// // Initial UI setup based on login status
+// updateUI();
+
+
+
+
+// This function can be called when the user clicks the "Sign In" button
+// function singin() {
+//     window.location.href = 'login.php'; // Redirect to login page
+// }
+
+// Sign out logic is handled by the sign_out.php file which destroys the session
+
+
+
+
+// JavaScript function triggered when Sign In button is clicked
+// function singin() {
+//     window.location.href = '../views/profile.php'; // Redirect user to the login page
+
+
+// }
+
+
+
+
+// document.getElementById('signup-form').addEventListener('submit', function(e) {
+//   e.preventDefault();
+
+//   const formData = new FormData(this);
   
-  fetch('signup.php', {  // Ensure this is the correct path to your PHP handler
-    method: 'POST',
-    body: formData
-  })
-  .then(response => response.json())
-  .then(data => {
-    const popupMessage = document.getElementById('popup-message');
-    if (data.status === 'success') {
-      popupMessage.classList.add('alert-success');
-      popupMessage.classList.remove('alert-danger');
-      popupMessage.innerHTML = data.message;
-    } else {
-      popupMessage.classList.add('alert-danger');
-      popupMessage.classList.remove('alert-success');
-      popupMessage.innerHTML = data.message;
-    }
-    popupMessage.style.display = 'block';
-  })
-  .catch(error => {
-    console.error('Error:', error);
-  });
-});
+//   fetch('signup.php', {  // Ensure this is the correct path to your PHP handler
+//     method: 'POST',
+//     body: formData
+//   })
+//   .then(response => response.json())
+//   .then(data => {
+//     const popupMessage = document.getElementById('popup-message');
+//     if (data.status === 'success') {
+//       popupMessage.classList.add('alert-success');
+//       popupMessage.classList.remove('alert-danger');
+//       popupMessage.innerHTML = data.message;
+//     } else {
+//       popupMessage.classList.add('alert-danger');
+//       popupMessage.classList.remove('alert-success');
+//       popupMessage.innerHTML = data.message;
+//     }
+//     popupMessage.style.display = 'block';
+//   })
+//   .catch(error => {
+//     console.error('Error:', error);
+//   });
+// });
 
 
 
+// // Select elements
+// const signInBtn = document.getElementById('sign-in-btn');
+// const signOutBtn = document.getElementById('sign-out-btn');
+// const profileContainer = document.getElementById('profile-container');
+// const profileIcon = document.getElementById('profile-icon');
+// const profileMenu = document.getElementById('profile-menu');
+
+// // Function to sign in (show profile icon, hide sign-in button)
+// function signIn() {
+//     signInBtn.classList.add('hidden');
+//     profileContainer.classList.remove('hidden');
+// }
+
+// // Function to sign out (show sign-in button, hide profile icon)
+// function signOut() {
+//     signInBtn.classList.remove('hidden');
+//     profileContainer.classList.add('hidden');
+//     profileMenu.classList.add('hidden');
+// }
+
+// // Function to toggle the profile menu
+// function toggleProfileMenu() {
+//     profileMenu.classList.toggle('hidden');
+// }
+
+// // Event listeners
+// signInBtn.addEventListener('click', signIn);
+// signOutBtn.addEventListener('click', signOut);
+// profileIcon.addEventListener('click', toggleProfileMenu);
 
 
 

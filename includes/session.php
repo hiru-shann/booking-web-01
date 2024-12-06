@@ -22,14 +22,16 @@ function secureSession() {
 // Call the secure session function before starting the session
 secureSession();
 
+
+
 // Ensure the session is being used securely
 if (!isset($_SESSION['user_id']) && isset($_SESSION['user_name'])) {
     // Redirect to the login page if the session does not exist or is invalid
-    header("Location: ../includes/index.php");
+    header("Location: popup.php");
     exit;
 } else {
     // User is logged in, continue with the session
-    $username = $_SESSION['user_name'];
+   
 }
 
 // Optional: Implement session timeout logic (for idle sessions)
@@ -37,7 +39,7 @@ $timeout_duration = 3600; // 1 hour
 if (isset($_SESSION['last_activity']) && (time() - $_SESSION['last_activity']) > $timeout_duration) {
     session_unset();  // Unset all session variables
     session_destroy();  // Destroy the session
-    header("Location: login.php?session_timeout=true");
+    header("Location: popup.php?session_timeout=true");
     exit;
 }
 $_SESSION['last_activity'] = time();  // Update last activity time

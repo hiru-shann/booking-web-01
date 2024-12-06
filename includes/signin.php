@@ -3,7 +3,7 @@
 
 require 'session.php';  // For session management
 
-session_start();  // Start the session
+  // Start the session
 
 // Initialize an array to store error messages
 $errors = [];

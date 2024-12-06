@@ -19,7 +19,7 @@
           <form action="../includes/signIn.php" method="POST" class="d-grid" style="row-gap: 20px;">
             <input type="text" name="user_name" placeholder="user name" required>
             <input type="password" name="password" placeholder="password" required>
-            <button class="btn btn-success btns" type="submit" style="margin-top: -2px;">Sing in</button>
+            <button class="btn btn-success btns" type="submit" id="popupSign" style="margin-top: -2px;">Sing in</button>
            
           </form>
         </div>

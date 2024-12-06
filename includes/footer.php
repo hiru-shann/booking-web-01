@@ -10,7 +10,7 @@
                     <div class="col-sm-6 ">
                         <span>
                             <small>
-                                &copy;2024 Tripadvisor LLC All rights reserved.
+                                &copy;2024 BOOKMYJOURNEY LLC All rights reserved.
                             </small>
                         </span>
                         <div class="fs-6 fw-bold text-dark ">
