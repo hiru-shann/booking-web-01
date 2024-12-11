@@ -23,20 +23,36 @@ function secureSession() {
 secureSession();
 
 
-// Check if the user is logged in by checking the session variables
-// $isLoggedIn = isset($_SESSION['user_id']) && isset($_SESSION['user_name']);
 
-if (!isset($_SESSION['user_id']) && isset($_SESSION['user_name'])) {
+
+// if (!isset($_SESSION['user_id']) && isset($_SESSION['user_name'])) {
+//     // Redirect to the login page if the session does not exist or is invalid
+//     header("Location: popup.php");
+//     exit;
+    
+// } else {
+
+    
+//     // User is logged in, continue with the session
+   
+// }
+
+
+// Check if the user is logged in by checking the session variables
+$isLoggedIn = isset($_SESSION['user_id']) && isset($_SESSION['user_name']);
+
+
+if (!$isLoggedIn) {
     // Redirect to the login page if the session does not exist or is invalid
-    header("Location: popup.php");
-    exit;
+    // header("Location: popup.php");
+    // exit;
     
 } else {
-
     
     // User is logged in, continue with the session
    
 }
+
 
 
 
