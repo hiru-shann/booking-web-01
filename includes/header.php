@@ -88,7 +88,7 @@ require "../includes/session.php";
                         </div>
                     </div>
 
-                    <div class="collapse navbar-collapse profile-icon">
+                    <div class="collapse navbar-collapse profile-icon" id="profileIcon">
                         <ul class="navbar-nav ms-auto ">
                             <!-- Profile Icon and Dropdown Toggle -->
                             <li class="nav-item dropdown ">
@@ -102,14 +102,14 @@ require "../includes/session.php";
                                     <li><a class="dropdown-item" href="#">Bookings</a></li>
                                     <li><a class="dropdown-item" href="#">Messages</a></li>
                                     <li><a class="dropdown-item" href="#">Account Info</a></li>
-                                    <li><a class="dropdown-item"  href="../views/index.php">Sign Out</a></li>
+                                    <li><a class="dropdown-item"  href="../views/index.php" id="signOutButton" >Sign Out</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
 
                     <div class="sing-b-l">
-                        <button type="submit" id="sing-b" class ="btn btn-success sing-b  d-none" id="singin" onclick="singin()" >sing in</button>
+                        <button type="submit" id="singin" class ="btn btn-success sing-b  d-none"  onclick="singin()" >sing in</button>
                     </div>
 
                     

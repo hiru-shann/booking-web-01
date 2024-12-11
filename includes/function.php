@@ -37,29 +37,146 @@ function singup() {
 
 }
 
-function dinemic_sign_profile() {
+// function dinemic_sign_profile() {
 
-// Hide the 'signIn' modal if it's open
-      var popupSignInButton = document.getElementById('popupSign');
-      var profilePage = document.getElementById('singUp');
+// // Hide the 'signIn' modal if it's open
+//       var popupSignInButton = document.getElementById('popupSign');
+//       var profileicon = document.getElementById('profileIcon');
 
-      // Check if the 'signIn' modal is visible
-      if (signInElement.classList.contains('show')) {
-          var myModal = bootstrap.Modal.getInstance(signInModalElement);
-          if (myModal) {
-              myModal.hide();
-          }
-      }
 
-  // Show the modal using Bootstrap's modal method
-  console.log("btn clicked")
-  var myModal2 = new bootstrap.Modal(document.getElementById('singUp'));
-  myModal2.show();
+//         profileicon.style.display = "none";
 
-  //interpace changing
+    
+//       if () { 
+//             profileicon.style.display = "block";
+//             popupSignInButton.style.display = "none";
+
+//         } else if(){
+//             profileicon.style.display = "none";
+//             popupSignInButton.style.display = "block";
+            
+//         } else {
+
+//         }
+
+//       // Check if the 'signIn' modal is visible
+//       if (popupSignInButton.classList.contains('show')) {
+//           var myModal = bootstrap.Modal.getInstance(popupSignInButton);
+//           if (myModal) {
+//               myModal.hide();
+//           }
+//       }
+
+//   // Show the modal using Bootstrap's modal method
+//   console.log("btn clicked")
+//   var myModal2 = new bootstrap.Modal(document.getElementById('singUp'));
+//   myModal2.show();
+
+//   //interpace changing
   
 
+// }
+
+
+// function dynamicSignProfile() {
+//     // Get the elements
+//     var popupSignInButton = document.getElementById('popupSign');
+//     var profileIcon = document.getElementById('profileIcon');
+//     var signOutButton = document.getElementById('signOutButton');  // The sign out button
+//     var signInButton = document.getElementById('singin');  // The sign in button on navbar
+
+//     // Simulate checking login status (e.g., by checking a session or localStorage variable)
+//     var isLoggedIn = sessionStorage.getItem('userLoggedIn'); // Example: check if user is logged in (replace with your actual logic)
+
+//     // Hide the 'signIn' modal if it's open
+//     if (popupSignInButton.classList.contains('show')) {
+//         var myModal = bootstrap.Modal.getInstance(popupSignInButton);
+//         if (myModal) {
+//             myModal.hide();
+//         }
+//     }
+
+//     if (isLoggedIn) {
+//         // User is logged in, show profile icon, hide sign-in button
+//         profileIcon.style.display = "block";
+//         signInButton.style.display = "none";
+        
+//     } else {
+//         // User is not logged in, show sign-in button, hide profile icon and sign out button
+//         profileIcon.style.display = "none";
+//         signInButton.style.display = "block";
+        
+//     }
+// }
+
+// // Call this function when the page loads to check the user's login state
+// window.onload = function() {
+//     dynamicSignProfile();
+// }
+
+
+
+
+// Include a hidden input or JavaScript variable to pass the login state to the frontend
+
+    var userLoggedIn = <?php echo $isLoggedIn ? 'true' : 'false'; ?>;
+    var input = document.createElement('input');
+    input.type = 'hidden';
+    input.id = 'userLoggedIn';
+    input.value = userLoggedIn ? 'true' : 'false';
+    document.body.appendChild(input);
+
+
+function dynamicSignProfile() {
+    // Get the elements
+    var profileIcon = document.getElementById('profileIcon');
+    var signInButton = document.getElementById('singin');  // The sign-in button on navbar
+
+    // Check if the user is logged in by retrieving a PHP session variable (sent to JS)
+    var isLoggedIn = document.getElementById('userLoggedIn').value;  // Get session status from a hidden input or a script
+
+    if (isLoggedIn == "true") {
+        // User is logged in, show profile icon, hide sign-in button
+        profileIcon.style.display = "block";
+        signInButton.style.display = "none";
+    } else {
+        // User is not logged in, show sign-in button, hide profile icon
+        profileIcon.style.display = "none";
+        signInButton.style.display = "block";
+    }
 }
+
+// Call this function when the page loads to check the user's login state
+window.onload = function() {
+    dynamicSignProfile();
+}
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const nav1 = document.querySelector("#nav-2");
+    const nav2 = document.querySelector("#mainheader");
+
+    // Initially, hide nav2 and show nav1
+    nav2.style.display = "none";
+    
+
+    window.addEventListener("scroll", function () {
+        if (window.scrollY <= 140) {  // Adjust 100 to the desired scroll distance
+            nav1.style.display = "block";
+            nav2.style.display = "none";
+        }
+
+        else{
+            nav1.style.display = "none";
+            nav2.style.display = "block";
+            
+        }
+        
+    });
+});
 
 
 
@@ -412,6 +529,35 @@ document.addEventListener("DOMContentLoaded", function () {
 // profileIcon.addEventListener('click', toggleProfileMenu);
 
 
+
+
+// Fetch vacation spots data from the backend
+fetch('fetch_hotels.php')
+    .then(response => response.json())
+    .then(data => {
+        const container = document.getElementById('hotels-container');
+        
+        if (data.length > 0) {
+            data.forEach(spot => {
+                const spotElement = document.createElement('div');
+                spotElement.classList.add('grid-itemi');
+                
+                spotElement.innerHTML = `
+                    <h4 class="headerindex-img-topic">${spot.title}</h4>
+                    <img src="${spot.image_path}" alt="img">
+                    <p>${spot.description}</p>
+                    <img class="icon-index" src="../assets/icons/heart.png" alt="icon">
+                `;
+                
+                container.appendChild(spotElement);
+            });
+        } else {
+            container.innerHTML = '<p>No vacation spots available at the moment.</p>';
+        }
+    })
+    .catch(error => {
+        console.error('Error fetching vacation spots:', error);
+    });
 
 </script>
 
